@@ -1,6 +1,22 @@
-# Project Title
+# Negar Unicode Fixer
 
-One Paragraph of project description goes here
+Quite a number of applications don’t consider supporting Persian or Arabic language or other languages which are preferred to have especial Unicode form in terms of using Zero Width Non-Joiner or zero width Joiner, which is why I make up my mind about undertaking the project fixing issues with regard to integrating and completing separated activities.
+
+Programs which are presented in this extent are not really versatile because of depending on specialized fonts; therefore, lack of having the compatible character Unicode for already-typed documents would be mutually exclusive with original one. In addition, supporting multilingual contexts are required facilitating switching between languages. Moreover, entering offline text might be substantial, which means that demanding for converting and returning the character Unicode which is typed in standard or non-standard form is indispensable something which is ready in this application is offline text converting: paste or even opening Text file is possible, another point which is deserved to mention is exported Unicode, which is located in menu->file>export->Unicode, the Unicode will be presented in Text file, which can be used by other applications such as J2ME or Polish.
+
+The thing which I have decided to add them in the next version:
+
+    Unicode Keyboard
+    Multilingual application
+    Multilingual text editor
+    Control keyboard key stork
+    Fix some bug, especially it seems that the line numbers are reversed in reverse character output mode.
+    Console part will be provided.
+    Presenting shape of Unicode character is needed below its number.
+    Special flowing widget involving showing fonts characters map and preparing choice to choose from.
+    Filter the Unicode table in which entering character Unicode in decimal hex or binary will be possible.
+    Converting the text to standard and non-standard Unicode.
+
 
 ## Getting Started
 
@@ -10,51 +26,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -62,26 +33,7 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
